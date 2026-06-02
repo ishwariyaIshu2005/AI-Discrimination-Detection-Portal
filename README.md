@@ -2,6 +2,19 @@
 
 AI-powered Tamil and English discrimination detection portal with severity analysis, PDF reporting, analytics dashboard, awareness resources, and admin login.
 
+
+## Features
+
+- Tamil & English Text Analysis
+- Risk Classification (Low, Medium, High)
+- Severity Score
+- PDF Report Generation
+- Analysis History
+- Interactive Charts
+- Awareness Articles
+- Legal Resources
+- Admin Login
+
 ## Dashboard Screenshots
 
 ### Login Page
@@ -19,28 +32,63 @@ AI-powered Tamil and English discrimination detection portal with severity analy
 ### Legal Resources
 ![Dashboard 5](assets/dashboard5.png)
 
-## Features
 
-- Tamil + English Text Analysis
-- Low / Medium / High Risk Detection
-- Severity Score
-- PDF Report Generation
-- Analysis History
-- Charts & Graphs
-- Awareness Articles
-- Legal Resources
-- Admin Login
-- Report Concern Form
+## System Architecture
 
-## Technologies Used
+User Input
+    ↓
+Text Analysis Engine
+    ↓
+Risk Detection
+    ↓
+Severity Scoring
+    ↓
+PDF Report + Database Storage
+
+## Tech Stack
 
 - Python
 - Streamlit
 - SQLite
 - Plotly
 - TextBlob
-- Git & GitHub
+- GitHub
 
+## Installation
+
+git clone <repo>
+
+pip install -r requirements.txt
+
+streamlit run app.py
+
+
+## Project Structure
+
+AI_Discrimination_Portal/
+│
+├── app.py
+├── detector.py
+├── database.py
+├── login.py
+├── pdf_generator.py
+├── articles.py
+├── legal_resources.py
+├── requirements.txt
+└── assets/
+
+
+
+## Future Enhancements
+
+- BERT-based Deep Learning Detection
+- Real-time Social Media Monitoring
+- Voice Input Support
+- Live Location Tracking
+- Email Alert System
+- Multi-language Support
+
+  
 ## Author
 
 Ishwariya
